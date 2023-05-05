@@ -13,7 +13,7 @@ loader = data.DataLoader(train_dataset, batch_size=64, shuffle=True)
 # img_dataloader = data.DataLoader(dataset=img_dataset, batch_size=16, shuffle=True)
 # for batch_idx, (image, word_boxes) in enumerate(img_dataloader):
 # 	print(batch_idx, (image.shape, word_boxes.shape))
-
+#并没有什么新的事情发生
 d_model = 256
 d_k = 256
 d_v = 256
